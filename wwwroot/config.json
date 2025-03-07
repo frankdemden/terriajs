@@ -1,1 +1,32 @@
-
+{
+    "catalog": [
+      {
+        "name": "Orthomosaic",
+        "type": "url",
+        "url": "https://your-link-to-geotiff.tif",
+        "zoomOnEnable": true
+      },
+      {
+        "name": "Photos with Orientation",
+        "type": "geojson",
+        "url": "https://your-link-to-photos.geojson",
+        "zoomOnEnable": true
+      }
+    ],
+    "initialCamera": {
+      "west": -180,
+      "south": -90,
+      "east": 180,
+      "north": 90
+    },
+    "homeCamera": {
+      "west": -180,
+      "south": -90,
+      "east": 180,
+      "north": 90
+    },
+    "baseMaps": {
+      "defaultBaseMapName": "Bing Maps Aerial"
+    }
+  }
+  
